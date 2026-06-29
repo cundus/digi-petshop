@@ -19,7 +19,7 @@ import { Logo } from "@/components/Logo";
 import { SITE, waLink } from "@/lib/site";
 
 import heroPets from "@/assets/hero-pets.jpg";
-import aboutShop from "@/assets/about-shop.jpg";
+import aboutShop from "@/assets/about-us.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -190,7 +190,7 @@ function About() {
         <div className="relative order-2 lg:order-1">
           <div className="absolute inset-0 rotate-3 rounded-[2rem] bg-cream" />
           <img
-            src={aboutShop}
+            src={aboutShop.url}
             alt="Suasana toko Digi Petshop"
             loading="lazy"
             width={1024}
