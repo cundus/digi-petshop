@@ -24,13 +24,13 @@ import aboutShop from "@/assets/about-shop.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Pawfect Petshop — Sahabat Setia Hewan Kesayangan Anda" },
+      { title: "Digi Petshop — Sahabat Setia Hewan Kesayangan Anda" },
       {
         name: "description",
         content:
           "Petshop modern menyediakan makanan, vitamin, aksesoris, dan grooming hewan peliharaan dengan pelayanan yang hangat dan terpercaya.",
       },
-      { property: "og:title", content: "Pawfect Petshop" },
+      { property: "og:title", content: "Digi Petshop" },
       {
         property: "og:description",
         content:
