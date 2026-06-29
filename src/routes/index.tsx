@@ -24,13 +24,13 @@ import aboutShop from "@/assets/about-shop.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Pawfect Petshop — Sahabat Setia Hewan Kesayangan Anda" },
+      { title: "Digi Petshop — Sahabat Setia Hewan Kesayangan Anda" },
       {
         name: "description",
         content:
           "Petshop modern menyediakan makanan, vitamin, aksesoris, dan grooming hewan peliharaan dengan pelayanan yang hangat dan terpercaya.",
       },
-      { property: "og:title", content: "Pawfect Petshop" },
+      { property: "og:title", content: "Digi Petshop" },
       {
         property: "og:description",
         content:
@@ -191,7 +191,7 @@ function About() {
           <div className="absolute inset-0 rotate-3 rounded-[2rem] bg-cream" />
           <img
             src={aboutShop}
-            alt="Suasana toko Pawfect Petshop"
+            alt="Suasana toko Digi Petshop"
             loading="lazy"
             width={1024}
             height={1024}
@@ -319,7 +319,7 @@ function Location() {
         </div>
         <div className="overflow-hidden rounded-3xl border border-border bg-background shadow-card">
           <iframe
-            title="Lokasi Pawfect Petshop"
+            title="Lokasi Digi Petshop"
             src="https://www.google.com/maps?q=Jakarta+Selatan&output=embed"
             className="h-72 w-full sm:h-96"
             loading="lazy"

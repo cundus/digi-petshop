@@ -77,10 +77,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Pawfect Petshop — Semua Kebutuhan Sahabat Berbulu Anda" },
+      { title: "Digi Petshop — Semua Kebutuhan Sahabat Berbulu Anda" },
       { name: "description", content: "Petshop modern menyediakan makanan, vitamin, aksesoris, dan grooming hewan peliharaan dengan pelayanan hangat dan terpercaya." },
-      { name: "author", content: "Pawfect Petshop" },
-      { property: "og:title", content: "Pawfect Petshop — Sahabat Setia Hewan Kesayangan Anda" },
+      { name: "author", content: "Digi Petshop" },
+      { property: "og:title", content: "Digi Petshop — Sahabat Setia Hewan Kesayangan Anda" },
       { property: "og:description", content: "Makanan, vitamin, aksesoris, dan grooming hewan dengan pelayanan ramah dan terpercaya." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
