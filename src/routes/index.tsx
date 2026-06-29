@@ -19,7 +19,7 @@ import { Logo } from "@/components/Logo";
 import { SITE, waLink } from "@/lib/site";
 
 import heroPets from "@/assets/hero-pets.jpg";
-import aboutShop from "@/assets/about-shop.jpg";
+import aboutShop from "@/assets/about-us.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
